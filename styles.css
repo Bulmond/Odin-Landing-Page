@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: auto;
+    overflow: scroll;
+    background-color: aliceblue;
+}
+
+.header {
+    padding: 12px 80px 24px;
+    background-color: rgb(25, 61, 56);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 44px;
+}
+
+.logo {
+    font-size: 32px;
+    color: bisque;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    margin-left: auto;
+    font-size: 22px;
+}
+
+nav a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.herotxt {
+    width: 30%;
+}
+
+.img-container {
+    margin-left: 25%;
+}
+
+.header h1 {
+    color: white;
+    font-weight: 900;
+}
+
+.header section {
+    color: rgb(228, 224, 224);
+    padding: 24px 0;
+}
+
+button {
+    width: 64px;
+    height: 32px;
+    background-color: rgb(14, 172, 151);
+    border: 0px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+img {
+    border: 3px solid #555;
+    border-radius: 5px;
+}
+
+.header img {
+    width: 320px;
+    height: auto;
+}
+
+.main-content {
+    padding: 12px 80px 24px;
+    width: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 16px;
+}
+
+.ex-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ex-container img {
+    width: 256px;
+    height: 170px;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    background-color: rgb(170, 170, 170);
+    font-size: 28px;
+}
+
+.testimonial p {
+    max-width: 600px;
+}
+
+.author {
+    padding-top: 24px;
+    margin-left: 600px;
+    font-weight: 900;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: rgb(14, 172, 151);
+    border-radius: 4px;
+    padding: 24px;
+    color: rgb(190, 185, 185);
+}
+
+.call-to-action .title {
+    font-size: 28px;
+}
+
+.b-container {
+    padding-right: 48px;
+}
+
+.call-to-action button {
+    align-self: center;
+    border: 3px solid rgb(190, 185, 185);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+    background-color: rgb(25, 61, 56);
+    color: rgb(228, 224, 224);
+}
+
